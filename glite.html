@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Demo App</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        input,
+        textarea,
+        [contenteditable] {
+            font: inherit;
+            line-height: 1.5;
+            width: 600px;
+            padding: 8px 12px;
+            overflow: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        [contenteditable] {
+            height: 10rem;
+            border: 1px solid;
+            resize: both;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Textarea</h2>
+    <grammarly-editor-plugin>
+        <textarea rows="10">
+Start typing here!
+      </textarea>
+    </grammarly-editor-plugin>
+
+    <script src="https://unpkg.com/@grammarly/editor-sdk@2.0?clientId=client_WW2K6HxCk5xxV6xLwRbXGR"></script>
+</body>
+
+</html>
